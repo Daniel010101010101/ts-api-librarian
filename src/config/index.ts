@@ -5,7 +5,7 @@ const saltRounds = process.env.APP_SALT_ROUNDS || 10;
 const config = {
   isProd,
   saltRounds,
-  port: process.env.APP_PORT || 8080,
+  port: process.env.PORT || 8080,
   database: {
     uri: process.env.APP_DATABASE_URL,
     options: {},
